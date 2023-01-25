@@ -1,0 +1,855 @@
+/* Navbar Styles */
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-links {
+  padding-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-links a {
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-links a:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+.navbar-btn {
+  margin-top: 10px;
+  padding: 15px 25px;
+  font-size: 15px;
+  border: rgb(255, 153, 0);
+  border-radius: 15px 5px 15px 5px;
+  background-color: rgb(255, 153, 0);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-btn:hover {
+  transform: scale(1.05);
+}
+/* /Navbar Styles */
+
+/* Main Styles */
+.main {
+  padding: 130px 100px;
+}
+
+.main-cards {
+  display: flex;
+}
+
+.main-card {
+  position: relative;
+}
+
+.main-card h1 {
+  margin: 70px 0;
+  font-size: 55px;
+  color: rgb(1, 1, 39);
+}
+
+.main-card p {
+  margin: 30px 0;
+  padding-right: 9rem;
+  color: rgb(110, 108, 108);
+}
+
+.main-social {
+  margin: 50px 0;
+  display: flex;
+  gap: 25px;
+}
+
+.main-social a {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-social a:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(blue, red, yellow);
+  color: #fff;
+}
+
+.main-card__view {
+  border-radius: 75px 35px 75px 35px;
+}
+
+.main-card__dish {
+  position: absolute;
+  z-index: 1;
+  left: -10rem;
+  bottom: 10px;
+}
+
+.main-card__leaf1 {
+  position: absolute;
+  left: -150px;
+  top: -80px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.main-card__leaf2 {
+  position: absolute;
+  right: -50px;
+  top: -80px;
+  z-index: -1;
+  opacity: 0.5;
+}
+/* /Main Styles */
+
+/* Special Styles */
+.special {
+  padding: 50px 0 100px;
+  background-color: rgb(245, 242, 242);
+}
+
+.special-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-header img {
+  opacity: 0.1;
+}
+
+.special-title h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.special-title p {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(117, 116, 116);
+}
+
+.special-cards {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.special-cards .active {
+  background-color: #fff;
+}
+
+.special-card {
+  position: relative;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 35px 10px 35px 10px;
+  text-align: center;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.special-card:hover {
+  transform: scale(1.03);
+}
+
+.special-card img {
+  position: relative;
+  top: -90px;
+}
+
+.special-card span {
+  position: absolute;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid darkslategrey;
+}
+
+.special-card h4 {
+  padding-bottom: 15px;
+  color: rgb(4, 4, 90);
+}
+
+.special-card p {
+  padding: 10px 0;
+  color: rgb(3, 3, 80);
+}
+/* /Special Styles */
+
+/* Special Card Two */
+.special-cards__two {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.special-cards__two {
+  position: relative;
+}
+
+.special-card__two h1 {
+  margin: 30px 0;
+  font-size: 45px;
+}
+
+.special-card__two p {
+  padding-right: 15rem;
+  font-size: 18px;
+}
+/* /Special Card Two */
+
+/* Chef Section */
+.chef {
+  position: relative;
+  padding: 50px 0;
+}
+
+.chef-cards {
+  padding: 70px 100px;
+  display: flex;
+}
+
+.chef-onion {
+  position: absolute;
+  opacity: 0.1;
+}
+
+.chef-card h1 {
+  margin: 100px 0 30px;
+  font-size: 40px;
+  color: rgb(2, 2, 77);
+}
+
+.chef-card p {
+  margin: 10px 15rem 100px 0;
+  font-size: 18px;
+  color: rgb(141, 138, 138);
+}
+
+.chef-btn {
+  margin-top: 150px;
+}
+/* /Chef Section */
+
+/* Customer Styles*/
+.customer {
+  position: relative;
+  padding: 100px 0;
+  background-color: rgb(245, 242, 242);
+}
+
+.customer-subtitle {
+  text-align: center;
+}
+
+.customer-subtitle h1 {
+  margin: 10px 0 25px;
+  font-size: 45px;
+}
+
+.customer-subtitle p {
+  font-size: 20px;
+  color: rgb(4, 4, 85);
+}
+
+.customer-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.customer-card {
+  position: relative;
+  width: 30rem;
+  padding: 0 5rem;
+  text-align: center;
+  border-radius: 5rem 2rem 5rem 2rem;
+  background-color: #fff;
+  margin-top: 120px;
+}
+
+.customer-card img {
+  position: relative;
+  top: -3rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.customer-rate {
+  position: absolute;
+  top: 3rem;
+  left: 10rem;
+  color: yellow;
+}
+
+.customer-card p {
+  margin-bottom: 2rem;
+  color: rgb(156, 154, 154);
+}
+
+.customer-card h4 {
+  margin: 5px 0;
+}
+
+.customer-parent__dot {
+  margin: 5rem 0 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.customer-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.customer-parent__dot .active {
+  background-color: red;
+}
+
+.customer > img {
+  position: absolute;
+  right: 0;
+  opacity: 0.2;
+}
+/* /Customer Styles */
+
+/* Letter Styles */
+.letter {
+  position: relative;
+  top: -200px;
+  text-align: center;
+}
+
+.letter img {
+  position: relative;
+  border-radius: 50px;
+}
+
+.letter h1 {
+  position: absolute;
+  top: 100px;
+  left: 390px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.letter form {
+  position: absolute;
+  bottom: 100px;
+  left: 390px;
+}
+
+.letter input {
+  width: 530px;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: #fff;
+}
+
+.letter button {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: #fff;
+  color: #fff;
+  background-color: rgb(255, 140, 0);
+  cursor: pointer;
+}
+/* /Letter Styles */
+
+/* Footer Styles */
+footer{
+  padding: 0 100px 100px;
+}
+
+.footer-cards{
+  display: flex;
+  gap: 90px;
+  border-bottom: 1px solid rgb(236, 235, 235);
+}
+
+.footer-card__title{
+  width: 300px;
+  margin: 20px 0;
+  color: rgb(160, 160, 160);
+}
+
+.footer-card__title a{
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: rgb(92, 91, 91);
+}
+
+.footer-weeks{
+  display: flex;
+  gap: 40px;
+  margin: 25px 0;
+  line-height: 25px;
+}
+
+.footer-week{
+  color: rgb(128, 127, 127);
+}
+
+.footer-card h4{
+  margin: 35px 0 15px;
+}
+
+.footer-card li{
+  margin: 20px 0;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.footer-card a{
+  color: rgb(117, 117, 117);
+  transition: all .5s ease-in-out;
+}
+
+.footer-card a:hover{
+  transform: scale(1.1);
+  color: red;
+}
+
+.footer-social {
+  margin: 25px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social a {
+  width: 35px;
+  height: 35px;
+  padding: 7px 8px;
+  font-size: 18px;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-social a:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(blue, red, yellow);
+  border-color: wheat;
+  color: #fff;
+}
+
+.footer-info{
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(112, 111, 111);
+}
+
+.footer-info__two{
+  display: flex;
+  gap: 20px;
+}
+/* /Footer Styles */
+
+/* Media Styles */
+@media (max-width: 1200px) {
+  /* Main Styles */
+  .main {
+    margin-bottom: 100px;
+    padding: 130px 50px;
+  }
+
+  .main-card h1 {
+    font-size: 50px;
+  }
+
+  .main-card p {
+    padding-right: 2rem;
+  }
+  /* /Main Styles */
+
+  /* Special Styles */
+  .special-cards {
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+  .special-card {
+    margin-bottom: 100px;
+  }
+  /* /Special Styles */
+
+  /* Special Card Two Styles */
+  .special-cards__two {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .special-card__two {
+    text-align: center;
+  }
+
+  .special-card__two p {
+    padding-right: 0;
+  }
+  /* /Special Card Two Styles */
+
+  /* Chef Styles */
+  .chef-cards {
+    padding: 70px 50px;
+  }
+
+  .chef-onion {
+    width: 15rem;
+  }
+
+  .chef-card p {
+    margin-right: 0;
+  }
+  /* /Chef Styles */
+
+  /* Letter Styles */
+  .letter img {
+    width: 950px;
+    width: 100%;
+  }
+
+  .letter h1 {
+    top: 50px;
+    left: 265px;
+  }
+
+  .letter form {
+    bottom: 50px;
+    left: 265px;
+  }
+  /* /Letter Styles */
+  
+  /* Footer Styles */
+  footer{
+    padding: 0 30px 50px;
+  }
+
+  .footer-card__none{
+    display: none;
+  }
+  /* Footer Styles */
+}
+
+@media (max-width: 991px) {
+  /* Navbar Styles */
+  .navbar-links {
+    gap: 25px;
+  }
+  /* /Navbar Styles */
+
+  /* Main Styles */
+  .main {
+    padding: 0;
+  }
+
+  .main-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-card {
+    padding: 0 50px;
+    text-align: center;
+  }
+
+  .main-card h1 {
+    margin: 35px 0;
+  }
+
+  .main-card p {
+    margin: 10px 0;
+    padding-right: 0;
+  }
+
+  .main-social {
+    margin: 25px 0;
+    justify-content: center;
+  }
+
+  .main-card__dish {
+    left: 8rem;
+    bottom: -100px;
+  }
+  /* /Main Styles */
+
+  /* Special Styles */
+  .special {
+    padding: 30px 0;
+  }
+
+  .special-header img {
+    width: 100px;
+  }
+
+  .special-title h1 {
+    font-size: 40px;
+  }
+
+  .special-title p {
+    text-align: center;
+  }
+
+  .special-cards {
+    padding-bottom: 0;
+  }
+  /* /Special Styles */
+
+  /* Special Card Two Styles */
+  .special-card__two img {
+    width: 35rem;
+  }
+  /* /Special Card Two Styles */
+
+  /* Chef Styles */
+  .chef-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .chef-card {
+    text-align: center;
+  }
+
+  .chef-card p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .chef-btn {
+    margin-top: 40px;
+  }
+  /* /Chef Styles */
+
+  /* Customer Styles */
+  .customer-cards {
+    flex-wrap: wrap;
+  }
+  /* /Customer Styles */
+
+  /* Letter Styles */
+  .letter img {
+    width: 750px;
+  }
+
+  .letter h1, form{
+    display: none;
+  }
+  /* /Letter Styles */
+}
+
+@media (max-width: 767px) {
+  /* Navbar Styles */
+  .navbar {
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  .navbar-links,
+  .navbar-btn {
+    display: none;
+  }
+  /* /Navbar Styles */
+
+  /* Main Styles */
+  .main-card__leaf1,
+  .main-card__leaf2 {
+    display: none;
+  }
+  /* /Main Styles */
+
+  /* Special Card Two Styles */
+  .special-card__two img {
+    width: 30rem;
+  }
+
+  .special-card__two h1 {
+    font-size: 40px;
+  }
+  /* /Special Card Two Styles */
+
+  /* Customer Styles */
+  .customer-subtitle h1 {
+    font-size: 40px;
+    color: rgb(3, 3, 82);
+  }
+  /* /Customer Styles */
+
+  /* Letter Styles */
+  .letter {
+    top: -110px;
+  }
+
+  .letter img {
+    width: 550px;
+  }
+  /* /Letter Styles */
+
+  /* Footer Styles */
+  footer{
+    padding: 0 15px 25px;
+  }
+
+  .footer-cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-card__title{
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .footer-card__title a{
+    margin-top: 10px;
+    display: block;
+    color: darkred;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .footer-weeks{
+    margin: 10px 0;
+    gap: 25px;
+  }
+
+  .footer-card h4{
+    margin: 10px 0;
+  }
+
+  .footer-social{
+    margin: 15px 0 25px;
+  }
+
+  .footer-weeks, .footer-social{
+    justify-content: center;
+  }
+
+  .footer-info{
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  /* /Footer Styles */
+}
+
+@media (max-width: 576px) {
+  /* Main Styles */
+  .main-card {
+    padding: 0 10px;
+  }
+
+  .main-card h1 {
+    font-size: 35px;
+  }
+
+  .main-card__view {
+    width: 300px;
+  }
+
+  .main-card__dish {
+    left: 4rem;
+    width: 200px;
+  }
+  /* /Main Styles */
+
+  /* Special Styles */
+  .special-header img {
+    display: none;
+  }
+
+  .special-title h1 {
+    font-size: 35px;
+  }
+
+  .special-card {
+    width: 300px;
+  }
+
+  .special-card span {
+    right: 40px;
+  }
+  /* /Special Styles */
+
+  /* Special Card Two Styles */
+  .special-card__two img {
+    width: 20rem;
+  }
+
+  .special-card__two h1 {
+    font-size: 35px;
+  }
+  /* /Special Card Two Styles */
+
+  /* Chef Styles */
+  .chef {
+    padding: 15px 0;
+  }
+
+  .chef-onion {
+    display: none;
+  }
+
+  .chef-cards {
+    padding: 50px 0;
+  }
+
+  .chef-card h1 {
+    margin-top: 10px;
+  }
+
+  .chef-image {
+    width: 18rem;
+  }
+  /* /Chef Styles */
+
+  /* Letter Styles */
+  .letter{
+    top: -150px;
+  }
+
+  .letter img {
+    width: 330px;
+    height: 250px;
+    object-fit: cover;
+  }
+  /* /Letter Styles */
+
+  /* Footer Styles */
+  .footer-info{
+    gap: 10px;
+  }
+  /* /Footer Styles */
+}
+/* /Media Styles */
